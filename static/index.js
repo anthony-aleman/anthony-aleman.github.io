@@ -1,2 +1,1 @@
-let messages = "YOOOOO CRAAZY"
-        document.getElementById("secret").appendChild(messages)
+//next thing to do is add in a function for clicking on the hamburger icon to pop the navbar up
