@@ -7,20 +7,31 @@ body {
 
 .topnav {
     background-color: #D7BDE2;
-    
 }
 
 
 .navbar {
     background-color: #D7BDE2;
-    height: 100px;
+    height: 115px;
     padding-bottom: 10px;
 }
 
-ul.main-nav {
+.navbar a:hover {
+    background-color: hsl(56, 92%, 52%);
+}
+
+.main-nav {
     display: none;
     list-style-type: none;
+    flex-direction: column;
+}
+
+.active {
+    display: block;
     text-align: center;
+    list-style-type: none;
+    background-color: #D7BDE2;
+    padding-bottom: 20px;
 }
 
 .main-nav li {
@@ -28,7 +39,7 @@ ul.main-nav {
     margin: 15px auto;
 }
 
-li.nav-link, .logo {
+.nav-link, .logo {
     text-decoration: none;
     color: hsl(0, 83%, 49%);
 }
@@ -37,7 +48,6 @@ li.nav-link, .logo {
     display: inline-block;
     height: 100px;
     width: 100px;
-    font-size: 22px;
     margin-left: 5px;
 }
 
@@ -47,10 +57,36 @@ a {
 
 .navbar-toggle {
     position: absolute;
-    
     top: 27px;
     right: 20px;
     cursor: pointer; 
     color: rgba(255,255,255,0.8);
     font-size: 24px;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+
+    .main-nav {
+        display: flex;
+        margin: 40px;
+        padding: 10px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .nav-link {
+        padding: 5px;
+    }
 }
