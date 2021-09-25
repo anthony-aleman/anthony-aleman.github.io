@@ -3,15 +3,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/cool-background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .topnav {
-    background-color: #D7BDE2;
+    background-color: black;
 }
 
 
 .navbar {
-    background-color: #D7BDE2;
+    background-color: #283747;
     height: 125px;
     padding-bottom: 10px;
 }
@@ -30,7 +34,7 @@ body {
     display: block;
     text-align: center;
     list-style-type: none;
-    background-color: #D7BDE2;
+    background-color: #283747;
     padding-bottom: 20px;
     padding-inline-start: 0px;
 }
@@ -54,7 +58,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #7439d3;
+    color: #F8F9F9;
 }
 
 .navbar-toggle {
