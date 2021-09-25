@@ -12,7 +12,7 @@ body {
 
 .navbar {
     background-color: #D7BDE2;
-    height: 115px;
+    height: 125px;
     padding-bottom: 10px;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .nav-link, .logo {
     text-decoration: none;
-    color: hsl(0, 83%, 49%);
+    padding-bottom: 10px;
 }
 
 .logo {
@@ -53,6 +53,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #7439d3;
 }
 
 .navbar-toggle {
@@ -87,6 +88,6 @@ a {
     }
 
     .nav-link {
-        padding: 5px;
+        padding: 15px;
     }
 }
