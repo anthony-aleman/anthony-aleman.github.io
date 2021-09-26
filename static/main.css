@@ -1,3 +1,4 @@
+/*mobile viewing*/
 
 body {
     margin: 0;
@@ -78,9 +79,23 @@ a {
     opacity: 0.5;
 }
 
+.my-pic {
+    position: absolute;
+    height: 65%;
+    width: 65%;
+    margin: 175px 400px 300px 50px;
+    border: 3mm ridge #9ab973;
 
+}
 
+.intro{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 600px;
 
+}
+
+/*DESKTOP CSS*/
 @media screen and (min-width: 768px) {
     
     .navbar {
@@ -104,5 +119,19 @@ a {
 
     .nav-link {
         padding: 18px;
+    }
+
+    .my-pic {
+        margin-left: 70px;
+        position: absolute;
+        height: 80%;
+        width: 35%;
+        border: 3mm ridge #9ab973;
+    }
+
+    .intro {
+        position: absolute;
+        display: inline;
+        margin-left: 700px;
     }
 }
