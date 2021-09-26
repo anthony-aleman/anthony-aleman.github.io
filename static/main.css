@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/cool-background.svg);
+    background-image: url(/flat-mountains.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,13 +16,15 @@ body {
 
 .navbar {
     background-color: #283747;
-    height: 125px;
-    padding-bottom: 10px;
+    height: 130px;
+    padding-bottom: 0;
 }
 
 .navbar a:hover {
-    background-color: hsl(56, 92%, 52%);
+    opacity: 0.5;
 }
+
+
 
 .main-nav {
     display: none;
@@ -35,6 +37,7 @@ body {
     text-align: center;
     list-style-type: none;
     background-color: #283747;
+    margin: 0;
     padding-bottom: 20px;
     padding-inline-start: 0px;
 }
@@ -46,19 +49,20 @@ body {
 
 .nav-link, .logo {
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
 }
 
 .logo {
     display: inline-block;
     height: 100px;
     width: 100px;
+    padding-bottom: 5px;
     margin-left: 5px;
 }
 
 a {
     text-decoration: none;
-    color: #F8F9F9;
+    color: #eee8aa;
 }
 
 .navbar-toggle {
@@ -69,6 +73,12 @@ a {
     color: rgba(255,255,255,0.8);
     font-size: 24px;
 }
+
+.navbar-toggle i:hover {
+    opacity: 0.5;
+}
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -93,6 +103,6 @@ a {
     }
 
     .nav-link {
-        padding: 15px;
+        padding: 18px;
     }
 }
