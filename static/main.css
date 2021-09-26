@@ -1,6 +1,7 @@
 /*mobile viewing*/
 
 body {
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,7 +84,7 @@ a {
     position: absolute;
     height: 65%;
     width: 65%;
-    margin: 175px 400px 300px 50px;
+    margin: 140px 200px 200px 50px;
     border: 3mm ridge #9ab973;
 
 }
@@ -97,6 +98,17 @@ a {
 
 /*DESKTOP CSS*/
 @media screen and (min-width: 768px) {
+
+    body {
+        font-size: 1.35rem;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(/flat-mountains.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
     
     .navbar {
         display: flex;
@@ -124,7 +136,7 @@ a {
     .my-pic {
         margin-left: 70px;
         position: absolute;
-        height: 80%;
+        height: 90%;
         width: 35%;
         border: 3mm ridge #9ab973;
     }
