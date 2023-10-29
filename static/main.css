@@ -18,20 +18,20 @@ ul{
 .project-img {
     height: 200px;
     width: 200px;
-    margin: 50 auto;
+    margin: 10 auto;
     display: block;
 }
 
 .project-card {
-    /*display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center; /* Centers items on the cross-axis (horizontal centering) */
     justify-content: center; /* Centers items on the main-axis (vertical centering) */
-    /*height: 300px; /* or whatever height you prefer */
+    height: 370px; /* or whatever height you prefer */
     /*width: 200px; /* or whatever width you prefer */
     /*border: 1px solid #ccc; /* optional, for visualization */
-    padding: 50px; /* some space around the content */
-    margin: 10px; /* some space between the cards */
+    padding: 0px; /* some space around the content */
+    margin-top: 70px; /* some space between the cards */
 }
 
 
@@ -122,10 +122,15 @@ h2{
 
 }
 
+section {
+    transition: margin-top 0.1s;
+    margin-top: 0px;
+}
+
 .intro{
     position: absolute;
     margin-top: 1rem;
-    margin-left: 36%;
+    margin-left: 20%;
     margin-right: 42%;
 
 }
