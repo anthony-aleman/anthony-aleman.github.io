@@ -265,6 +265,13 @@ section {
         list-style-type: none;
     }
 
+    h2{
+        justify-content: center;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    
+
     .about-container {
         max-width: 1000px;
         margin: 40px auto;
