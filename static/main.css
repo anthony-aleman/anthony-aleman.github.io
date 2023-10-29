@@ -11,6 +11,26 @@ body {
     background-size: cover;
 }
 
+.project-img {
+    height: 200px;
+    width: 200px;
+    margin: 50 auto;
+    display: block;
+}
+
+.project-card {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items on the cross-axis (horizontal centering) */
+    justify-content: center; /* Centers items on the main-axis (vertical centering) */
+    /*height: 300px; /* or whatever height you prefer */
+    /*width: 200px; /* or whatever width you prefer */
+    /*border: 1px solid #ccc; /* optional, for visualization */
+    padding: 50px; /* some space around the content */
+    margin: 10px; /* some space between the cards */
+}
+
+
 .topnav {
     background-color: black;
 }
@@ -67,6 +87,15 @@ a {
     color: #eee8aa;
 }
 
+h2{
+    justify-content: center;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+}
+
 .navbar-toggle {
     position: absolute;
     top: 27px;
@@ -93,7 +122,7 @@ a {
 
 .intro{
     position: absolute;
-    margin-top: 7rem;
+    margin-top: 1rem;
     margin-left: 36%;
     margin-right: 42%;
 
