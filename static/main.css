@@ -12,6 +12,9 @@ body {
     list-style-type: none;
 }
 
+ul{
+    list-style-type: none;
+}
 .project-img {
     height: 200px;
     width: 200px;
@@ -93,9 +96,7 @@ h2{
     position: relative;
 }
 
-ul{
-    list-style-type: none;
-}
+
 
 .navbar-toggle {
     position: absolute;
