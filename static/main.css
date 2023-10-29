@@ -149,6 +149,7 @@ section {
 /* Profile images styling */
 .profile-images {
     width: 50%;
+    display: block;
     margin-bottom: 15px;
     margin-left: 15%;
     margin-top: 10px;
@@ -275,15 +276,16 @@ section {
     /* Profile images styling */
     .profile-images {
         display: flex;
+        flex-wrap: nowrap;
         gap: 20px; /* space between images */
         justify-content: center; /* center the images horizontally */
-        flex-wrap: wrap; /* allows images to wrap to the next row if there isn't enough space */
+        width: 6;    
     }
 
     .profile-images img {
         max-width: 200px; /* or whatever size you prefer */
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: auto;
     }
     
     /* Text content styling */
