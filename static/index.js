@@ -20,8 +20,10 @@ navBarToggle.addEventListener('click', function(){
 
         if(isNavbarOpen){
                 mainSection.style.marginTop = '0px'
+                
         } else {
-                mainSection.style.marginTop = '70px'
+                mainSection.style.marginTop = '100px'
+               
         }
 });
 
