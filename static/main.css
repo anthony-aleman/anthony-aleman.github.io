@@ -23,15 +23,32 @@ ul{
 }
 
 .project-card {
+    background-color: #283747; /* Card background color */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
+    width: 100%; /* Width of the card, you can adjust as necessary */
+    max-width: 500px; /* Maximum width of the card */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centers items on the cross-axis (horizontal centering) */
     justify-content: center; /* Centers items on the main-axis (vertical centering) */
-    height: 370px; /* or whatever height you prefer */
-    /*width: 200px; /* or whatever width you prefer */
-    /*border: 1px solid #ccc; /* optional, for visualization */
-    padding: 0px; /* some space around the content */
-    margin-top: 70px; /* some space between the cards */
+    margin-top: 1em;
+        /*height: 300px; /* or whatever height you prefer */
+        /*width: 200px; /* or whatever width you prefer */
+        /*border: 1px solid #ccc; /* optional, for visualization */
+}
+
+.project-card h3 {
+    color: rgb(37, 150, 190); /* Text color */
+    font-size: 1.5em; /* Size of the title */
+    margin-bottom: 10px; /* Optional margin below the title */
+    padding: 0 30px;
+}
+
+.project-card p {
+    color: #ffffff; /* Text color */
+    font-size: 1em; /* Size of the text */
+    line-height: 1.5; /* Line height of the text */
 }
 
 
@@ -139,10 +156,14 @@ section {
 }
 
 .intro{
-    position: absolute;
-    margin-top: 1rem;
-    margin-left: 20%;
-    margin-right: 42%;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
 
 }
 
@@ -174,10 +195,12 @@ section {
 }
 
 .skills-list li {
-    background-color: #f4f4f4; /* Light grey background */
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-weight: 500; /* Makes text slightly bold */
+    background-color: #283747; /* Light grey background */
+        padding: 8px 15px;
+        border-radius: 15px;
+        font-weight: 500; /* Makes text slightly bold */
+        font-size: 1.35rem;
+        color: rgb(37, 150, 190); /* Makes text slightly bold */
 }
 
 
@@ -234,23 +257,31 @@ section {
 
     .intro {
         /*KEEP WORKING ON THIS THE TEXT ISNT CENTERED*/
-        margin-left: 40%;
-        margin-right: 41%;
-        padding-right: 10px;
-        padding-left: 10px;
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .project-img {
         height: 200px;
         width: 200px;
         margin: 50 auto;
-        display: block;
+        display: display;
+        
     }
     
     .project-card {
-        /*display: flex;
+        background-color: #283747; /* Card background color */
+        border-radius: 10px; /* Rounded corners for the card */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
+        width: 90%; /* Width of the card, you can adjust as necessary */
+        max-width: 500px; /* Maximum width of the card */
+        display: flex;
         flex-direction: column;
         align-items: center; /* Centers items on the cross-axis (horizontal centering) */
         justify-content: center; /* Centers items on the main-axis (vertical centering) */
@@ -258,9 +289,29 @@ section {
         /*width: 200px; /* or whatever width you prefer */
         /*border: 1px solid #ccc; /* optional, for visualization */
         padding: 50px; /* some space around the content */
-        margin: 10px; /* some space between the cards */
+        margin: 20px; /* some space between the cards */
+    }
+
+
+    .project-card h3 {
+        color: rgb(37, 150, 190); /* Text color */
+        font-size: 1.5em; /* Size of the title */
+        margin-bottom: 10px; /* Optional margin below the title */
+    }
+
+    .project-card p {
+        color: #ffffff; /* Text color */
+        font-size: 1em; /* Size of the text */
+        line-height: 1.5; /* Line height of the text */
     }
     
+    .project-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     ul{
         list-style-type: none;
     }
@@ -269,6 +320,12 @@ section {
         justify-content: center;
         position: relative;
         margin-bottom: 100px;
+    }
+
+    li {
+        text-align: center;
+        margin-top: 2em;
+        margin: 75px;
     }
     
 
@@ -299,17 +356,32 @@ section {
     .about-text {
         text-align: center;
         margin-top: 30px;
+        background-color: #283747; /* Card background color */
+        border-radius: 10px; /* Rounded corners for the card */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
+  /* Maximum width of the card */
+         /* Centers items on the cross-axis (horizontal centering) */
+       /* Centers items on the main-axis (vertical centering) */
+        /*height: 300px; /* or whatever height you prefer */
+        /*width: 200px; /* or whatever width you prefer */
+        /*border: 1px solid #ccc; /* optional, for visualization */
+        /* some space between the cards */
     }
     
+    .skills {
+        text-align: center;
+    }
+
     .about-text h1 {
         font-size: 2em;
-        color: black;
+        color: rgb(37, 150, 190);
+        padding-top: 20px;
         margin-bottom: 20px;
     }
     
     .about-text p {
         font-size: 1em;
-        color: black;
+        color: rgb(37, 150, 190);
         line-height: 1.5;
     }
 
@@ -359,16 +431,18 @@ section {
     
     .skills-list {
         list-style-type: none; /* Removes bullet points */
-        padding-left: 0;
         display: flex;
         flex-wrap: wrap; /* Allows list items to wrap to next line if there's no space */
-        gap: 15px; /* Spacing between items */
+        gap: 10px; /* Spacing between items */
+        justify-content: center; /* Centers items horizontally */
     }
     
     .skills-list li {
-        background-color: #f4f4f4; /* Light grey background */
+        background-color: #283747; /* Light grey background */
         padding: 8px 15px;
-        border-radius: 5px;
+        border-radius: 15px;
         font-weight: 500; /* Makes text slightly bold */
+        font-size: 1.35rem;
+        color: rgb(37, 150, 190);
     }
 }
