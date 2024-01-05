@@ -26,13 +26,15 @@ ul{
     background-color: #283747; /* Card background color */
     border-radius: 10px; /* Rounded corners for the card */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
-    width: 100%; /* Width of the card, you can adjust as necessary */
-    max-width: 500px; /* Maximum width of the card */
+    width: 70%; /* Width of the card, you can adjust as necessary */
+    max-width: 400px; /* Maximum width of the card */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centers items on the cross-axis (horizontal centering) */
     justify-content: center; /* Centers items on the main-axis (vertical centering) */
     margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
         /*height: 300px; /* or whatever height you prefer */
         /*width: 200px; /* or whatever width you prefer */
         /*border: 1px solid #ccc; /* optional, for visualization */
@@ -43,6 +45,8 @@ ul{
     font-size: 1.5em; /* Size of the title */
     margin-bottom: 10px; /* Optional margin below the title */
     padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-card p {
@@ -51,6 +55,9 @@ ul{
     line-height: 1.5; /* Line height of the text */
 }
 
+.project-card a {
+    margin-bottom: 10px;
+}
 
 .topnav {
     background-color: black;
@@ -82,17 +89,16 @@ ul{
     background-color: #283747;
     margin: 0;
     padding-bottom: 20px;
-    padding-inline-start: 0px;
 }
 
 .main-nav li {
     text-align: center;
-    margin: 15px auto;
+
 }
 
 .nav-link, .logo {
     text-decoration: none;
-    padding-bottom: 18px;
+    padding-bottom: 17px;
 }
 
 .logo {
@@ -167,6 +173,8 @@ section {
 
 }
 
+
+/*About Page*/
 /* Profile images styling */
 .profile-images {
     width: 50%;
@@ -184,6 +192,33 @@ section {
 
     box-shadow: 5 5 10px rgba(0,0,0,0.1);
 }
+
+.about-text {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #283747; /* Card background color */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
+    width: 92%; /* Width of the card, you can adjust as necessary */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text p {
+    font-size: 1em;
+    color: rgb(37, 150, 190);
+    line-height: 1.5;
+}
+
+.about-text h1 {
+    font-size: 2em;
+    color: rgb(37, 150, 190);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 .skills-list {
@@ -204,6 +239,31 @@ section {
 }
 
 
+/* Contact Page */
+.contact {
+    width: 92%; /* Width of the card, you can adjust as necessary */
+    max-width: 500px; /* Maximum width of the card */
+    text-align: center;
+    margin-top: 30px;
+    background-color: #283747; /* Card background color */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact h1 {
+    font-size: 2em;
+    color: rgb(37, 150, 190);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1em;
+    color: rgb(37, 150, 190);
+    line-height: 1.5;
+}
 
 
 
@@ -243,6 +303,7 @@ section {
 
     .nav-link {
         padding: 18px;
+        padding-inline-start: 0px;
     }
 
     .my-pic {
@@ -303,6 +364,7 @@ section {
         color: #ffffff; /* Text color */
         font-size: 1em; /* Size of the text */
         line-height: 1.5; /* Line height of the text */
+        margin-bottom: 10px;
     }
     
     .project-list {
@@ -390,6 +452,27 @@ section {
         margin: 40px auto;
         padding: 20px;
         text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+        margin-top: 30px;
+        background-color: #283747; /* Card background color */
+        border-radius: 10px; /* Rounded corners for the card */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow for depth */
+    }
+
+    .contact h1 {
+        font-size: 2em;
+        color: rgb(37, 150, 190);
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact p {
+        font-size: 1em;
+        color: rgb(37, 150, 190);
+        line-height: 1.5;
     }
     
     .form-group {
